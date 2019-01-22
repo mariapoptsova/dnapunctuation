@@ -6,6 +6,8 @@ Danila Zaev, Anton Zaikin, Maria Poptsova
 
 Faculty of Computer Science, National Research University Higher School of Economics, Moscow, Russia
 
+------------------------------------------------------------------------------------------------------
+
 COMPILLATION:
 
 You can compile the program as easy as
@@ -13,6 +15,10 @@ You can compile the program as easy as
 
 To accelerate processing time one can try these parameters (essential when annotating large chromosomes):
 >g++ -O2 -march=native dnapunctuation.cpp -o dnapunctuation
+
+Here, the executable version was compiled under Mac OS High Sierra, version 10.13.6 
+
+------------------------------------------------------------------------------------------------------
 
 RUNNING:
 
@@ -39,6 +45,8 @@ L1.fna is a sequence file containing L1 human transposon
 The promram output is the text tab-delimitted file named according to the stem-loop parameters specified as input: L1.fna.S6-15_L3-10_M1.pal
 
 L1.fna and L1.fna.S6-15_L3-10_M1.pal can be found in the main directory
+
+
 
 
 
