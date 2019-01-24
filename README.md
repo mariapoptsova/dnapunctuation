@@ -36,10 +36,11 @@ One should run the program as
 
 where 
 L1.fna is a sequence file containing L1 human transposon
+
 6 is the minimum size of a stem
-10 is the maximum size of a stem
-4 is the minimum size of a loop
-5 is the maximum size of a loop
+15 is the maximum size of a stem
+3 is the minimum size of a loop
+10 is the maximum size of a loop
 1 is the number of gaps/mismatches allowed
 
 The promram output is the text tab-delimitted file named according to the stem-loop parameters specified as input: L1.fna.S6-15_L3-10_M1.pal
